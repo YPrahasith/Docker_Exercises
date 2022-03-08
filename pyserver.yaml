@@ -1,0 +1,9 @@
+version : '3.11'
+services:
+  pyserver:
+    image: python
+  volumes:
+    - pydata : \C:\Users\yellapup\Desktop\WorkSpace\Docker_Exercises
+volumes:
+  pydata :
+    external : true
